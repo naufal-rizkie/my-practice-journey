@@ -1,15 +1,5 @@
 'use strict'
 
-// Average of Three Numbers
-// Description: Write a script that prompts the user for three numbers, then calculates and prints their average.
-// Sample Run:
-
-// Enter first number: 3
-// Enter second number: 5
-// Enter third number: 1
-
-// The average of 3, 5, 1 is 3
-
 const readline = require('readline-sync');
 
 const inputFirstNum = Number(readline.question('Enter first number: '));
