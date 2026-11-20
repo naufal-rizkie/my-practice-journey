@@ -1,0 +1,39 @@
+Brief Description: 
+Practice reading user input from the console and processing it in JavaScript.
+Write three scripts that accept values entered by the user, perform calculations on them, and print formatted results
+
+Task 1: Average of Three Numbers
+File Name: 1.js
+
+Description: Write a script that prompts the user for three numbers, then calculates and prints their average.
+
+Sample Run:
+Enter first number: 3
+Enter second number: 5
+Enter third number: 1
+
+The average of 3, 5, 1 is 3
+
+================================================================================================================
+Task 2: Miles to Kilometers
+File Name: 2.js
+
+Description: Write a script that prompts the user for a distance in miles, converts it to kilometers, and prints the result.
+
+Sample Run:
+Enter miles: 3
+
+3 miles is equal to 4.82802 kilometers
+
+================================================================================================================
+Task 3: Seconds to Minutes and Seconds
+File Name: 3.js
+
+Description: Write a script that prompts the user for a number of seconds, then breaks that value down into whole minutes and the remaining seconds.
+
+Hint: Dividing in JavaScript can leave you with a decimal. Math.floor() takes a number and rounds it down to the nearest whole number, which may help you separate the whole part of a result from what is left over.
+
+Sample Run:
+Enter seconds: 500
+
+500 seconds is 8 minutes and 20 seconds
