@@ -1,0 +1,26 @@
+Brief Description: 
+Practice relational operators and comparison logic in JavaScript. 
+Write a script that quizzes the user on a simple addition problem, compares their answer against the correct sum, 
+and reports whether the equation they gave is true or false.
+
+Task: Addition Quiz Checker
+File Name: index.js
+
+Description: Write a script that quizzes the user on the sum of two numbers they supply, then verifies their answer. The program must:
+
+Prompt the user to enter a first number.
+Prompt the user to enter a second number.
+Display the question What is <first> + <second>? and read the user's answer.
+Compare the user's answer against the actual sum.
+Print a closing sentence restating the equation followed by true or false.
+Sample Run:
+  Enter first number: 2
+  Enter second number: 5
+  What is 2 + 5? 7
+  2 + 5 = 7 is true
+
+Requirements: 
+All three values must be read from standard input rather than hard-coded.
+The question line must echo back the two numbers the user actually entered, and the final line must echo both numbers and the user's answer. 
+The words true and false should come from the result of the comparison itself, not from manually written text. 
+The program must produce correct results for any valid numbers entered, not only the sample values.
